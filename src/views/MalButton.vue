@@ -40,9 +40,11 @@ const codes4 = [code41, code42, code43, code44]
   <div class="main">
     <div class="title">导入</div>
     <div class="codes">
-      <code>
-        {{ use }}
-      </code>
+      <div class="">
+        <code>
+          {{ use }}
+        </code>
+      </div>
     </div>
 
     <br>
@@ -128,10 +130,15 @@ nav {
 }
 
 .codes {
-  text-align: left;
+  text-align: center;
   margin-left: 480px;
-  width: 35%;
+  //width: 35%;
+  width: 500px;
   padding: 10px;
   background: beige;
+}
+
+.codes > div{
+  text-align: left;
 }
 </style>
