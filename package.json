@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "mal-vue-component": "file:../mal-vue-component",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.5",
-    "vue-vite-component": "file:../vue-vite-component"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
